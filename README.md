@@ -35,3 +35,11 @@ Repositorio base para consumo API-REST de registro de usuarios validados por env
 ### Plugins configurados
 
 - Lombok
+
+
+## Utilizacion
+Para que el consumo API-REST funcione en el archivo **application.properties** se deben configurar:
+- email.sender=*CORREO_ELECTRONICO*.
+- email.password=*CONTRASEÑA_DEL_CORREO_ELECTRONICO*.
+
+Se puede consultar la documentacion generada por Swagger en la siguiente ruta: `http://localhost:8080/swagger-ui/index.html`.
